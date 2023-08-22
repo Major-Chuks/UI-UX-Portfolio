@@ -8,7 +8,7 @@
 
 .description {
   max-width: 738px;
-  color: #D9D9D9;
+  color: #d9d9d9;
   font-family: Monument Extended;
   font-size: 16px;
   font-style: normal;
@@ -40,7 +40,7 @@
 }
 
 .text {
-  color: #3E4044;
+  color: #3e4044;
   font-family: Monument Extended;
   font-size: 64px;
   font-style: normal;
@@ -58,7 +58,7 @@
   position: absolute;
   right: -24px;
   top: 0;
-  color: #3E4044;
+  color: #3e4044;
   font-family: Krona One;
   font-size: 16px;
   font-style: normal;
@@ -87,6 +87,6 @@
 }
 
 .funProject:hover .bg {
-  background: #3E4044;
+  background: #3e4044;
   height: 100%;
 }

@@ -28,7 +28,7 @@
   height: 178px;
   border-radius: 23px;
   border: 1px solid #222229;
-  background: #0E0F0F;
+  background: #0e0f0f;
   box-shadow: 11px 12px 23px 0px rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
@@ -45,7 +45,7 @@
 }
 
 .sticky {
-  color: #5F656F;
+  color: #5f656f;
   text-align: right;
   font-family: Krona One;
   font-size: 12px;
@@ -63,7 +63,7 @@
   flex-shrink: 0;
   border-radius: 23px;
   border: 1px solid #222229;
-  background: #0E0F0F;
+  background: #0e0f0f;
   box-shadow: 11px 12px 23px 0px rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
@@ -72,7 +72,7 @@
 }
 
 .salutation .text {
-  color: #7D8387;
+  color: #7d8387;
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
@@ -90,7 +90,7 @@
   line-height: 76px;
   /* 133.333% */
   letter-spacing: 3px;
-  background: linear-gradient(70deg, #F2994A 0%, #9C4CF4 100%);
+  background: linear-gradient(70deg, #f2994a 0%, #9c4cf4 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

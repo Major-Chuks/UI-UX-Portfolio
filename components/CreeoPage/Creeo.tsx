@@ -14,6 +14,10 @@ import Brand from "./Brand/Brand";
 import HiFidelity from "./HiFidelity/HiFidelity";
 import OtherScreens from "./OtherScreens/OtherScreens";
 import Prototype from "./Prototype/Prototype";
+import Evaluations from "./Evaluations/Evaluations";
+import FutureSteps from "./FutureSteps/FutureSteps";
+import Reflection from "./Reflection/Reflection";
+import HappyToWork from "./HappyToWork/HappyToWork";
 
 const Creeo = () => {
   return (
@@ -32,8 +36,12 @@ const Creeo = () => {
       <HiFidelity />
       <OtherScreens />
       <Prototype />
+      <Evaluations />
+      <FutureSteps />
+      <Reflection />
+      <HappyToWork />
     </div>
-  )
-}
+  );
+};
 
 export default Creeo;

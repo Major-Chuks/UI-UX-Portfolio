@@ -19,7 +19,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background: #A667F8;
+  background: #a667f8;
   flex: 0 0 auto;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .status span {
-  color: #7D8387;
+  color: #7d8387;
   font-family: Monument Extended;
   font-size: 10px;
   font-style: normal;
@@ -63,7 +63,7 @@
 }
 
 .timezone span {
-  color: #7D8387;
+  color: #7d8387;
 }
 
 .navContainer {
@@ -79,7 +79,11 @@
   gap: 24px;
 
   border-radius: 247px;
-  background: linear-gradient(239deg, #F2994A 0%, rgba(151, 71, 255, 0.35) 100%);
+  background: linear-gradient(
+    239deg,
+    #f2994a 0%,
+    rgba(151, 71, 255, 0.35) 100%
+  );
   backdrop-filter: blur(35px);
 }
 
@@ -91,7 +95,7 @@
   justify-content: center;
   padding: 0 24px;
 
-  color: #D9D9D9;
+  color: #d9d9d9;
   /* font-family: Monument Extended; */
   font-size: 12px;
   font-style: normal;

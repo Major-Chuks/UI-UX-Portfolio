@@ -14,10 +14,15 @@ const Brand = () => {
       <div className={classes.stages}>
         <div className={classes.stage}>
           <div className={classes.left}>
-            <div className={classes.topic}>Brand & <br /> 3D design</div>
+            <div className={classes.topic}>
+              Brand & <br /> 3D design
+            </div>
           </div>
           <div className={classes.text}>
-            Digital wireframes provides more accurate depictions of the interface’s layout without going into much details. They show a glimpse of how the final product will look          </div>
+            Digital wireframes provides more accurate depictions of the
+            interface’s layout without going into much details. They show a
+            glimpse of how the final product will look{" "}
+          </div>
         </div>
         <div className={classes.brandA}>
           <Image src={brand1} alt="" />
@@ -32,7 +37,7 @@ const Brand = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Brand;

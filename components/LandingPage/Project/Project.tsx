@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 interface ProjectProps {
   data: Project;
-  id: number
+  id: number;
 }
 
 const ProjectPage = ({ data, id }: ProjectProps) => {
@@ -18,11 +18,13 @@ const ProjectPage = ({ data, id }: ProjectProps) => {
       </div>
       <div className={classes.details}>
         <div className={classes.name}>{data.name}</div>
-        <div className={`${classes.description} ${classes[`_${id}`]}`}>{data.description}</div>
+        <div className={`${classes.description} ${classes[`_${id}`]}`}>
+          {data.description}
+        </div>
         <div className={classes.date}>{data.date}</div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default ProjectPage;

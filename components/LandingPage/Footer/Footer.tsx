@@ -21,10 +21,13 @@ const Footer = () => {
         </div>
       </div>
       <div className={classes.bottom}>
-        <div><span>Designed with</span> <Love /> <span>by</span> <span className={classes.name}>Buchi</span></div>
+        <div>
+          <span>Designed with</span> <Love /> <span>by</span>{" "}
+          <span className={classes.name}>Buchi</span>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Footer;

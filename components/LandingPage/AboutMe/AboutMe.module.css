@@ -1,4 +1,5 @@
-.container {}
+.container {
+}
 
 .heading {
   width: 100%;
@@ -10,7 +11,7 @@
 .description {
   width: 100%;
   max-width: 651px;
-  color: #5F656F;
+  color: #5f656f;
   font-family: Monument Extended;
   font-size: 15px;
   font-style: normal;
@@ -21,7 +22,7 @@
 }
 
 .description span {
-  color: #FFF;
+  color: #fff;
 }
 
 .details {
@@ -47,7 +48,7 @@
 }
 
 .textContainer .text {
-  color: #5F656F;
+  color: #5f656f;
   font-family: Monument Extended;
   font-size: 12px;
   font-style: normal;
@@ -57,7 +58,7 @@
 }
 
 .textContainer .text span {
-  color: #FFF;
+  color: #fff;
 }
 
 .linkContainer {
@@ -79,7 +80,7 @@
   flex-shrink: 0;
   border-radius: 16px;
   border: 1px solid #222229;
-  background: #0E0F0F;
+  background: #0e0f0f;
   box-shadow: 11px 12px 23px 0px rgba(0, 0, 0, 0.25);
 
   display: flex;
@@ -95,7 +96,7 @@
 }
 
 .downloadContainer .text {
-  color: #D9D9D9;
+  color: #d9d9d9;
   font-family: Monument Extended;
   font-size: 10px;
   font-style: normal;
@@ -143,7 +144,7 @@
   line-height: 30px;
   /* 57.692% */
   letter-spacing: 1px;
-  background: linear-gradient(118deg, #F2994A 0%, #9747FF 58.26%, #F2994A 100%);
+  background: linear-gradient(118deg, #f2994a 0%, #9747ff 58.26%, #f2994a 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

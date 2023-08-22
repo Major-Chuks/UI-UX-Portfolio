@@ -11,7 +11,7 @@ const OtherScreens = () => {
       <Image src={otherScreens1} alt="" />
       <Image src={otherScreens2} alt="" />
     </div>
-  )
-}
+  );
+};
 
 export default OtherScreens;

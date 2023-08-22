@@ -8,7 +8,7 @@
 }
 
 .title {
-  color: #7D8387;
+  color: #7d8387;
   font-family: Poppins;
   font-size: 13px;
   font-style: normal;
@@ -38,8 +38,8 @@
   gap: 8px;
 }
 
-.right>div {
-  color: #7D8387;
+.right > div {
+  color: #7d8387;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
@@ -51,7 +51,7 @@
 }
 
 .right .topic {
-  color: #FFF;
+  color: #fff;
   font-family: Krona One;
   font-size: 17px;
   font-style: normal;
@@ -60,7 +60,7 @@
 }
 
 .description {
-  color: #FFF;
+  color: #fff;
   font-family: Krona One;
   font-size: 20px;
   font-style: normal;
@@ -70,7 +70,7 @@
 }
 
 .text {
-  color: #7D8387;
+  color: #7d8387;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -82,7 +82,7 @@
 }
 
 .text span {
-  color: #FFF;
+  color: #fff;
 }
 
 .text:first-child {
@@ -94,7 +94,7 @@
   height: 52px;
   flex-shrink: 0;
   border-radius: 100px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   display: flex;
   align-items: center;
   justify-content: center;

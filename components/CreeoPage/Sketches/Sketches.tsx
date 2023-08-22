@@ -15,7 +15,12 @@ const Sketches = () => {
             <div className={classes.topic}>Sketches </div>
           </div>
           <div className={classes.text}>
-            Entering the design phase, I kept in mind all the information I gathered, including personas, their challenges, and the proposed user flows. I started visualizing ideas by making rough <span>sketches</span>. I sought feedback from my peers to evaluate the usability of the concepts before starting high-fidelity design.</div>
+            Entering the design phase, I kept in mind all the information I
+            gathered, including personas, their challenges, and the proposed
+            user flows. I started visualizing ideas by making rough{" "}
+            <span>sketches</span>. I sought feedback from my peers to evaluate
+            the usability of the concepts before starting high-fidelity design.
+          </div>
         </div>
         <div className={classes.sketches}>
           <Image src={sketch1} alt="" />
@@ -24,7 +29,7 @@ const Sketches = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Sketches;

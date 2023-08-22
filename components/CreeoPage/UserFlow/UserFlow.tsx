@@ -8,16 +8,22 @@ const UserFlow = () => {
       <div className={classes.stages}>
         <div className={classes.stage}>
           <div className={classes.left}>
-            <div className={classes.topic}>Proposed <br />user flow  </div>
+            <div className={classes.topic}>
+              Proposed <br />
+              user flow{" "}
+            </div>
           </div>
           <div className={classes.text}>
-            Based on research, I analyzed and optimized the user flow to enhance the overall user experience, streamline interactions, and ensure users can <span>accomplish their goals</span> efficiently and with minimal effort.
+            Based on research, I analyzed and optimized the user flow to enhance
+            the overall user experience, streamline interactions, and ensure
+            users can <span>accomplish their goals</span> efficiently and with
+            minimal effort.
           </div>
         </div>
         <Image src={userflow} alt="" />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default UserFlow;

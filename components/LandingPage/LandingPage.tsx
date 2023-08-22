@@ -20,7 +20,7 @@ const LandingPage = () => {
       <Clients />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default LandingPage;

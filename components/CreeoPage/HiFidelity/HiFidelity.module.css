@@ -22,7 +22,7 @@
 }
 
 .topic {
-  color: #FFF;
+  color: #fff;
   font-family: Krona One;
   font-size: 24px;
   font-style: normal;
@@ -36,14 +36,14 @@
   position: absolute;
   width: 8px;
   height: 8px;
-  background: #14D3B2;
+  background: #14d3b2;
   border-radius: 50%;
   right: -16px;
   bottom: 16px;
 }
 
 .title {
-  color: #FFF;
+  color: #fff;
   font-family: Krona One;
   font-size: 36px;
   font-style: normal;
@@ -57,7 +57,7 @@
 .text {
   width: 100%;
   max-width: 846px;
-  color: #7D8387;
+  color: #7d8387;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -75,7 +75,7 @@
   line-height: 31px;
   /* 193.75% */
   letter-spacing: 1px;
-  color: #FFF;
+  color: #fff;
 }
 
 .fidelityContainer {

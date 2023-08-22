@@ -30,7 +30,7 @@
 }
 
 .topic {
-  color: #FFF;
+  color: #fff;
   font-family: Krona One;
   font-size: 24px;
   font-style: normal;
@@ -44,7 +44,7 @@
   position: absolute;
   width: 8px;
   height: 8px;
-  background: #14D3B2;
+  background: #14d3b2;
   border-radius: 50%;
   right: -16px;
   bottom: 16px;
@@ -54,7 +54,7 @@
 .text {
   width: 100%;
   max-width: 846px;
-  color: #7D8387;
+  color: #7d8387;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -72,11 +72,11 @@
   line-height: 31px;
   /* 193.75% */
   letter-spacing: 1px;
-  color: #FFF;
+  color: #fff;
 }
 
 .title {
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -87,7 +87,7 @@
 }
 
 .link {
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -103,13 +103,13 @@
   height: 254px;
   flex-shrink: 0;
   border-radius: 18px;
-  border: 1px solid #585E7D;
-  background: linear-gradient(180deg, #202124 0%, rgba(32, 33, 36, 0.00) 100%);
+  border: 1px solid #585e7d;
+  background: linear-gradient(180deg, #202124 0%, rgba(32, 33, 36, 0) 100%);
   padding: 22px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  border-left: 9px solid #14D3B2;
+  border-left: 9px solid #14d3b2;
 }
 
 .textBox .text {
@@ -131,7 +131,8 @@
   margin-top: -20em;
 }
 
-.stage4 .left {}
+.stage4 .left {
+}
 
 .stage4 .left img {
   width: 109px;
