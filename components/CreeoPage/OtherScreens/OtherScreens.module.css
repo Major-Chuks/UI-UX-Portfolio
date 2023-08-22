@@ -1,0 +1,12 @@
+.container {
+  margin-bottom: 46px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container img:nth-child(2) {
+  margin-bottom: 51px;
+}

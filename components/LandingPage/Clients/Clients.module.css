@@ -1,0 +1,99 @@
+.container {
+  margin-bottom: 259px;
+}
+
+.heading {
+  width: 100%;
+  height: auto;
+  margin-bottom: 17px;
+}
+
+.description {
+  width: 100%;
+  max-width: 776px;
+  margin-bottom: 35px;
+}
+
+.clientContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 67px;
+}
+
+.client {
+  width: 311px;
+  height: 178px;
+  border-radius: 23px;
+  border: 1px solid #222229;
+  background: #0E0F0F;
+  box-shadow: 11px 12px 23px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.workspace {
+  width: 100%;
+}
+
+.workspace img {
+  width: 100%;
+  height: auto;
+}
+
+.sticky {
+  color: #5F656F;
+  text-align: right;
+  font-family: Krona One;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 216.667% */
+  letter-spacing: 0.06px;
+  margin-bottom: 126px;
+}
+
+.salutation {
+  width: 100%;
+  height: 435px;
+  flex-shrink: 0;
+  border-radius: 23px;
+  border: 1px solid #222229;
+  background: #0E0F0F;
+  box-shadow: 11px 12px 23px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.salutation .text {
+  color: #7D8387;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  /* 116.667% */
+  letter-spacing: 0.24px;
+}
+
+.greeting {
+  font-family: Monument Extended;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 76px;
+  /* 133.333% */
+  letter-spacing: 3px;
+  background: linear-gradient(70deg, #F2994A 0%, #9C4CF4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 16px 0;
+  text-decoration-line: underline !important;
+}

@@ -1,0 +1,82 @@
+.container {
+  /* border: 1px solid red; */
+}
+
+.pointer {
+  width: max-content;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 5px;
+  margin-top: -16px;
+}
+
+.line {
+  width: 1px;
+  height: 93px;
+  background: #1E1E1F;
+  position: relative;
+}
+
+.indicator {
+  width: 100%;
+  height: 50%;
+  background: #D9D9D9;
+  position: absolute;
+  bottom: 0;
+  animation: move 3000ms infinite;
+  transform: translateY(-70%);
+}
+
+@keyframes move {
+
+  0%,
+  10% {
+    height: 60%;
+    transform: translateY(-60%);
+    background: #D9D9D9;
+  }
+
+  100% {
+    height: 20%;
+    transform: translateY(0%);
+    background: #303032;
+  }
+}
+
+.pointer .text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  color: #3E4044;
+  font-family: Monument Extended;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 216.667% */
+  letter-spacing: 0.06px;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  flex-shrink: 0;
+  background: #3E4044;
+  border-radius: 50%;
+}
+
+.heading {
+  width: 100%;
+  height: auto;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+  margin-bottom: 131px;
+}

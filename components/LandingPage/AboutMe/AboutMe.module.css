@@ -1,0 +1,152 @@
+.container {}
+
+.heading {
+  width: 100%;
+  max-width: 864px;
+  height: auto;
+  margin-bottom: 28px;
+}
+
+.description {
+  width: 100%;
+  max-width: 651px;
+  color: #5F656F;
+  font-family: Monument Extended;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.075px;
+  margin-bottom: 35px;
+}
+
+.description span {
+  color: #FFF;
+}
+
+.details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 54px;
+}
+
+.photo {
+  width: 611px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 41px;
+  margin-bottom: 27px;
+}
+
+.textContainer .text {
+  color: #5F656F;
+  font-family: Monument Extended;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.06px;
+}
+
+.textContainer .text span {
+  color: #FFF;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 54px;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  gap: 16.5px;
+}
+
+.icon {
+  width: 47.278px;
+  height: 46.639px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #222229;
+  background: #0E0F0F;
+  box-shadow: 11px 12px 23px 0px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.downloadContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.downloadContainer .text {
+  color: #D9D9D9;
+  font-family: Monument Extended;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 260% */
+  letter-spacing: 0.05px;
+  text-decoration-line: underline;
+}
+
+.coreValues {
+  margin-top: 53px;
+  height: 137px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-top: 1px solid #171718;
+  border-bottom: 1px solid #171718;
+  margin-bottom: 85px;
+}
+
+.values {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  animation: move 60s infinite linear;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.value {
+  font-family: Monument Extended;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 57.692% */
+  letter-spacing: 1px;
+  background: linear-gradient(118deg, #F2994A 0%, #9747FF 58.26%, #F2994A 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+  padding: 16px 0;
+}

@@ -1,0 +1,165 @@
+.container {
+  margin-bottom: 84px;
+  position: relative;
+  z-index: 2;
+}
+
+.heading {
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 86px;
+}
+
+.stages {
+  max-width: calc(1440px + 76px);
+  margin: 0 auto;
+  padding: 45px 76px;
+  padding-bottom: 0;
+}
+
+.stage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 68px;
+}
+
+.topic {
+  color: #FFF;
+  font-family: Krona One;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+  position: relative;
+}
+
+.topic::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #14D3B2;
+  border-radius: 50%;
+  right: -16px;
+  bottom: 16px;
+}
+
+.text ul li,
+.text {
+  width: 100%;
+  max-width: 846px;
+  color: #7D8387;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  /* 193.75% */
+  letter-spacing: 1px;
+}
+
+.text span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  /* 193.75% */
+  letter-spacing: 1px;
+  color: #FFF;
+}
+
+.title {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+  /* 193.75% */
+  letter-spacing: 1px;
+}
+
+.link {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 31px;
+  /* 193.75% */
+  letter-spacing: 1px;
+  text-decoration-line: underline;
+}
+
+.textBox {
+  width: 839.582px;
+  height: 254px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  border: 1px solid #585E7D;
+  background: linear-gradient(180deg, #202124 0%, rgba(32, 33, 36, 0.00) 100%);
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-left: 9px solid #14D3B2;
+}
+
+.textBox .text {
+  max-width: 705px;
+}
+
+.processMap {
+  width: 893px;
+  height: 241px;
+}
+
+.processMap img {
+  width: 100%;
+  height: auto;
+}
+
+.stage4 {
+  align-items: flex-start;
+  margin-top: -20em;
+}
+
+.stage4 .left {}
+
+.stage4 .left img {
+  width: 109px;
+  height: auto;
+}
+
+.stage4 .right {
+  width: 100%;
+  max-width: 893px;
+  margin-top: 18em;
+}
+
+.designImages {
+  margin-top: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 34px;
+}
+
+.designImages img:first-child {
+  width: 100%;
+  max-width: 453px;
+  height: 398px;
+}
+
+.designImages img:last-child {
+  width: 100%;
+  max-width: 398px;
+  height: 398px;
+}

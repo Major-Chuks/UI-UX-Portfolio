@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-bottom: 39px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -8px;
+}
+
+.details {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #A3A3A3;
+  font-family: Monument Extended;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+  letter-spacing: 0.08px;
+  gap: 164px;
+}
+
+.description._0 {
+  max-width: 541px;
+}
+
+.description._1 {
+  max-width: 625px;
+}

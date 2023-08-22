@@ -1,0 +1,74 @@
+.container {}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+}
+
+.letsConnect {
+  color: #7D8387;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  /* 175% */
+  letter-spacing: 0.16px;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+
+.link {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  /* 175% */
+  letter-spacing: 0.16px;
+}
+
+.back {
+  color: #D9D9D9;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  /* 175% */
+  letter-spacing: 0.16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom {
+  padding: 34px;
+  text-align: center;
+}
+
+.bottom .text {
+  color: #7D8387;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  /* 221.429% */
+  letter-spacing: 1px;
+}
