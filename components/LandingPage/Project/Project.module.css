@@ -40,3 +40,37 @@
 .description._1 {
   max-width: 625px;
 }
+
+@media screen and (max-width: 1200px) {
+  .details {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .details {
+    width: 100%;
+    gap: 64px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .details {
+    width: 100%;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    color: #d9d9d9;
+    font-family: Monument Extended;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 214.286% */
+    letter-spacing: 1px;
+  }
+
+  .image {
+    border-radius: 4px;
+  }
+}

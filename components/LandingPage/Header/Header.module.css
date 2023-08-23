@@ -6,7 +6,7 @@
 .mainText {
   color: #a3a3a3;
   font-family: Monument Extended;
-  font-size: 72px;
+  font-size: calc(24px + 3vmax);
   font-style: normal;
   font-weight: 800;
   line-height: 76px;
@@ -128,4 +128,42 @@
   background: #141618;
   box-shadow: 3px 0px 2px 0px rgba(0, 0, 0, 0.6);
   width: 1px;
+}
+
+@media screen and (max-width: 1200px) {
+  .mainText {
+    font-size: 54px;
+    line-height: 54px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mainText {
+    font-size: calc(42px - 1vmax);
+    line-height: 48px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainText {
+    font-size: 30px;
+    line-height: 47px;
+  }
+
+  .description {
+    color: #535557;
+    font-size: 12px;
+  }
+
+  .socialLinks {
+    display: none;
+  }
 }

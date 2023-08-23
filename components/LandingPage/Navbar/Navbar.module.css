@@ -75,7 +75,7 @@
   padding: 4.68px 8px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 24px;
 
   border-radius: 247px;
@@ -85,6 +85,10 @@
     rgba(151, 71, 255, 0.35) 100%
   );
   backdrop-filter: blur(35px);
+}
+
+.nav .avatar {
+  display: none;
 }
 
 .navItem {
@@ -110,4 +114,70 @@
   border-radius: 100px;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(3.5px);
+}
+
+@media screen and (max-width: 1200px) {
+  .navItem {
+    padding: 0 16px;
+    font-size: 10px;
+  }
+
+  .nav {
+    height: 58px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 480px;
+    margin: 0 auto;
+    margin-bottom: 81px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navContainer {
+    width: 100%;
+    padding: 0;
+  }
+
+  .nav {
+    gap: 22px;
+    height: 54px;
+  }
+
+  .nav .avatar {
+    display: block;
+  }
+
+  .avatar {
+    width: 43px;
+    height: 43px;
+  }
+
+  .navItem {
+    color: #d9d9d9;
+    font-family: Monument Extended;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 260% */
+    letter-spacing: 0.05px;
+    padding: 0;
+  }
+
+  .navItem.active {
+    border-radius: 0;
+    background: none;
+    backdrop-filter: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .navItem {
+    font-size: 9px;
+  }
 }

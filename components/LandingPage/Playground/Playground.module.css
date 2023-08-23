@@ -1,4 +1,6 @@
-/* .container {} */
+.container {
+  margin-bottom: 155px;
+}
 
 .heading {
   width: 100%;
@@ -20,11 +22,15 @@
 }
 
 .funProjectContainer {
-  margin-bottom: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .funProject {
-  width: 1328px;
+  width: 100%;
+  max-width: 1328px;
   height: 158px;
   flex-shrink: 0;
   display: flex;
@@ -89,4 +95,53 @@
 .funProject:hover .bg {
   background: #3e4044;
   height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .text {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .text {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-bottom: 84px;
+  }
+
+  .description {
+    color: #d9d9d9;
+    font-family: Monument Extended;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 216.667% */
+    letter-spacing: 0.06px;
+  }
+
+  .funProjectContainer {
+    gap: 34px;
+  }
+
+  .funProject {
+    height: 48px;
+    padding: 0;
+  }
+
+  .text {
+    color: #3e4044;
+    font-family: Monument Extended;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 93.75% */
+    letter-spacing: 1px;
+  }
 }

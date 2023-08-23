@@ -1,5 +1,5 @@
 .container {
-  /* border: 1px solid red; */
+  margin-bottom: 131px;
 }
 
 .pointer {
@@ -77,5 +77,14 @@
   align-items: center;
   justify-content: center;
   gap: 130px;
-  margin-bottom: 131px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-bottom: 75px;
+  }
+
+  .projects {
+    gap: 24px;
+  }
 }

@@ -11,3 +11,21 @@
     padding: 45px 76px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 45px 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 45px 32px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .container {
+    padding: 45px 16px;
+  }
+}

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "./LandingPage/Footer/Footer";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -9,6 +10,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="main">{children}</main>
+      {/* <Footer /> */}
     </>
   );
 }

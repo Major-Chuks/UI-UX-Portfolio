@@ -27,6 +27,9 @@ export function Navbar() {
 
       <div className={classes.navContainer}>
         <div className={classes.nav}>
+          <div className={classes.avatar}>
+            <Image src={avatar} alt="" />
+          </div>
           <div
             onClick={() => setActiveNav("Work")}
             className={`${classes.navItem} ${

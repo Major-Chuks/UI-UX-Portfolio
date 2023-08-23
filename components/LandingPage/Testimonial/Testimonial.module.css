@@ -124,3 +124,47 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1024px) {
+  .section1 {
+    height: auto;
+  }
+
+  .section1 .right {
+    padding: 41px;
+    padding-left: 52px;
+  }
+
+  .section2 .left,
+  .section2 .right {
+    padding: 26px 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-bottom: 63px;
+  }
+
+  .section1 {
+    width: 100%;
+  }
+
+  .section1 .left {
+    display: none;
+  }
+
+  .section2 {
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  .section1 .right,
+  .section2 .left,
+  .section2 .right {
+    padding: 0;
+  }
+}

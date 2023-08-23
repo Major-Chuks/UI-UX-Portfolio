@@ -30,24 +30,22 @@ const AboutMe = () => {
         <Image className={classes.photo} src={buchi} alt="" />
         <div>
           <div className={classes.textContainer}>
-            <div>
-              <div className={classes.text}>
-                I am a Nigerian-based multidisciplinary Product Designer with 4+
-                years of design experience. My focus is on merging strategy,
-                user-centric design, and intuitive visuals to create impactful
-                digital experience.{" "}
-                <span>
-                  I am passionate about building solution-based products from
-                  ideation all the way through to the final execution.
-                </span>
-              </div>
-              <div className={classes.text}>
-                I was most recently working at <span>Creeo</span>, where I have
-                been responsible for designing the user interface & experience,
-                conducting usability tests, gathered feedback, and iterated on
-                designs to ensure that the final product met the needs and
-                expectation of our users.
-              </div>
+            <div className={classes.text}>
+              I am a Nigerian-based multidisciplinary Product Designer with 4+
+              years of design experience. My focus is on merging strategy,
+              user-centric design, and intuitive visuals to create impactful
+              digital experience.
+              <span>
+                I am passionate about building solution-based products from
+                ideation all the way through to the final execution.
+              </span>
+            </div>
+            <div className={classes.text}>
+              I was most recently working at <span>Creeo</span>, where I have
+              been responsible for designing the user interface & experience,
+              conducting usability tests, gathered feedback, and iterated on
+              designs to ensure that the final product met the needs and
+              expectation of our users.
             </div>
             <div className={classes.text}>
               Before Creeo - I was the first design-hire at an NFT project,{" "}
@@ -89,7 +87,7 @@ const AboutMe = () => {
       </div>
 
       <div className={classes.coreValues}>
-        {[...Array(2)].map((el, idx) => (
+        {[...Array(2)].map((_, idx) => (
           <div key={idx} className={classes.values}>
             {coreValues.map((value, idx) => (
               <div key={idx} className={classes.value}>

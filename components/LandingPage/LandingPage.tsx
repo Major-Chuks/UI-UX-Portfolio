@@ -1,6 +1,5 @@
 import AboutMe from "./AboutMe/AboutMe";
 import Clients from "./Clients/Clients";
-import Footer from "./Footer/Footer";
 import { Header } from "./Header/Header";
 import classes from "./LandingPage.module.css";
 import { Navbar } from "./Navbar/Navbar";
@@ -18,7 +17,6 @@ const LandingPage = () => {
       <AboutMe />
       <Testimonial />
       <Clients />
-      <Footer />
     </div>
   );
 };
